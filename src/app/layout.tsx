@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+
+      <body className={inter.className}>
+        <p className="text-blue-400 pl-2">Parent Layout</p>
+        {children}
+
+      </body>
     </html>
   );
 }
