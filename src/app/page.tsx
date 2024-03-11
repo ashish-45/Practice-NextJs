@@ -1,7 +1,14 @@
+import HeroSection from "./components/HeroSection";
+import TestimonialCards from "./components/TestimonialCards";
+import { WhyChooseUs } from "./components/WhyChooseUs";
+
 export default function Home() {
   return (
     <>
-      <h2 className="font-bold text-center text-red-400 text-4xl text-clip">Next JS</h2>
+      <main className="min-h-screen bg-black/[0.96] antialiased ">
+          <HeroSection/>
+          <TestimonialCards/>
+      </main>
     </>
   );
 }
